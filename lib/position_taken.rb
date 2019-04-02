@@ -4,5 +4,6 @@ def position_taken?(board, integer)
   false
 elsif board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
   false
+else board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 end
 end
