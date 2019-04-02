@@ -1,10 +1,8 @@
-require "pry"
+
 def position_taken?(board, integer)
-  binding.pry
   if board[integer] == " " || board[integer] == "" || board[integer] == nil
   false
-
-elsif board[integer] == "X" || board[integer] == "O"
+  elsif board[integer] == "X" || board[integer] == "O"
   true
 end
 end
