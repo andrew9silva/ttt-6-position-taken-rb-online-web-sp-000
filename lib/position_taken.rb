@@ -1,7 +1,7 @@
 require "pry"
 def position_taken?(board, integer)
   binding.pry
-  if board[integer] == " " || board[integer] == "" || board[integer] == nil 
+  if board[integer] == " " || board[integer] == "" || board[integer] == nil
   false
 
 elsif board[integer] == "X" || board[integer] == "O"
