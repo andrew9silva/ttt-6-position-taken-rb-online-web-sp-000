@@ -2,9 +2,9 @@
 def position_taken?(board, integer)
   if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] && integer == 0
   false
-elsif board = [nil, " ", " ", " ", " ", " ", " ", " ", " "]
+elsif board = [nil, " ", " ", " ", " ", " ", " ", " ", " "] && integer == 0 || 1
   false
 else board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
-  true 
+  true
 end
 end
