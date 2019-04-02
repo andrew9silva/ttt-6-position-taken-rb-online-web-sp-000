@@ -1,5 +1,6 @@
-# code your #position_taken? method here!
+require "pry"
 def position_taken?(board, integer)
+  binding.pry
   if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] && integer == 0
   false
 elsif board = [nil, " ", " ", " ", " ", " ", " ", " ", " "] && integer == 0 || 1
