@@ -4,7 +4,7 @@ def position_taken?(board, integer)
   false
 elsif board = [nil, " ", " ", " ", " ", " ", " ", " ", " "] && integer == 0 || 1
   false
-else board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+else board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"] && integer == 0 || 8
   true
 end
 end
